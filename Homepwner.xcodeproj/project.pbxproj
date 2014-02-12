@@ -17,7 +17,9 @@
 		BFB95E6B18AB07E70097B34B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFB95E6A18AB07E70097B34B /* Default@2x.png */; };
 		BFB95E6D18AB07E70097B34B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFB95E6C18AB07E70097B34B /* Default-568h@2x.png */; };
 		BFB95E7018AB07E70097B34B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB95E6E18AB07E70097B34B /* MainStoryboard.storyboard */; };
-		BFB95E7318AB07E70097B34B /* HomepwnerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB95E7218AB07E70097B34B /* HomepwnerViewController.m */; };
+		BFB95E7B18AB08540097B34B /* ItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB95E7A18AB08540097B34B /* ItemsViewController.m */; };
+		BFB95E7E18AB0A190097B34B /* BNRItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB95E7D18AB0A190097B34B /* BNRItem.m */; };
+		BFB95E8118AB0AE70097B34B /* BNRItemStore.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB95E8018AB0AE70097B34B /* BNRItemStore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +37,12 @@
 		BFB95E6A18AB07E70097B34B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		BFB95E6C18AB07E70097B34B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		BFB95E6F18AB07E70097B34B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		BFB95E7118AB07E70097B34B /* HomepwnerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomepwnerViewController.h; sourceTree = "<group>"; };
-		BFB95E7218AB07E70097B34B /* HomepwnerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomepwnerViewController.m; sourceTree = "<group>"; };
+		BFB95E7918AB08540097B34B /* ItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemsViewController.h; sourceTree = "<group>"; };
+		BFB95E7A18AB08540097B34B /* ItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemsViewController.m; sourceTree = "<group>"; };
+		BFB95E7C18AB0A190097B34B /* BNRItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRItem.h; sourceTree = "<group>"; };
+		BFB95E7D18AB0A190097B34B /* BNRItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItem.m; sourceTree = "<group>"; };
+		BFB95E7F18AB0AE70097B34B /* BNRItemStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRItemStore.h; sourceTree = "<group>"; };
+		BFB95E8018AB0AE70097B34B /* BNRItemStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItemStore.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +89,15 @@
 		BFB95E5C18AB07E70097B34B /* Homepwner */ = {
 			isa = PBXGroup;
 			children = (
+				BFB95E7918AB08540097B34B /* ItemsViewController.h */,
+				BFB95E7A18AB08540097B34B /* ItemsViewController.m */,
+				BFB95E7C18AB0A190097B34B /* BNRItem.h */,
+				BFB95E7D18AB0A190097B34B /* BNRItem.m */,
+				BFB95E7F18AB0AE70097B34B /* BNRItemStore.h */,
+				BFB95E8018AB0AE70097B34B /* BNRItemStore.m */,
 				BFB95E6518AB07E70097B34B /* HomepwnerAppDelegate.h */,
 				BFB95E6618AB07E70097B34B /* HomepwnerAppDelegate.m */,
 				BFB95E6E18AB07E70097B34B /* MainStoryboard.storyboard */,
-				BFB95E7118AB07E70097B34B /* HomepwnerViewController.h */,
-				BFB95E7218AB07E70097B34B /* HomepwnerViewController.m */,
 				BFB95E5D18AB07E70097B34B /* Supporting Files */,
 			);
 			path = Homepwner;
@@ -176,7 +186,9 @@
 			files = (
 				BFB95E6318AB07E70097B34B /* main.m in Sources */,
 				BFB95E6718AB07E70097B34B /* HomepwnerAppDelegate.m in Sources */,
-				BFB95E7318AB07E70097B34B /* HomepwnerViewController.m in Sources */,
+				BFB95E7B18AB08540097B34B /* ItemsViewController.m in Sources */,
+				BFB95E7E18AB0A190097B34B /* BNRItem.m in Sources */,
+				BFB95E8118AB0AE70097B34B /* BNRItemStore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
