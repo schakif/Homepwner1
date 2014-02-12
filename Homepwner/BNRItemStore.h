@@ -16,7 +16,7 @@
 + (BNRItemStore *)defaultStore;
 - (NSArray *)allItems;
 - (BNRItem *)createItem;
-
-
+- (void) removeItem:(BNRItem *) itemToRemove;
+- (void) moveItemAtIndex:(int)from toIndex:(int)to;
 
 @end

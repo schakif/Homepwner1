@@ -43,4 +43,17 @@
     return p;
 }
 
+-(void) removeItem:(BNRItem *)itemToRemove {
+    [allItems removeObjectIdenticalTo:itemToRemove];
+}
+
+- (void) moveItemAtIndex:(int)from toIndex:(int)to {
+    if (from == to) {
+        return;
+    }
+    BNRItem *p = [allItems objectAtIndex:from];
+    [allItems removeObjectAtIndex:from];
+    [allItems insertObject:p atIndex:to];
+}
+
 @end

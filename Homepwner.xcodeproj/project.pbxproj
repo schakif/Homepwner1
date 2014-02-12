@@ -20,6 +20,7 @@
 		BFB95E7B18AB08540097B34B /* ItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB95E7A18AB08540097B34B /* ItemsViewController.m */; };
 		BFB95E7E18AB0A190097B34B /* BNRItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB95E7D18AB0A190097B34B /* BNRItem.m */; };
 		BFB95E8118AB0AE70097B34B /* BNRItemStore.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB95E8018AB0AE70097B34B /* BNRItemStore.m */; };
+		BFB95E8318AC06B00097B34B /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFB95E8218AC06B00097B34B /* HeaderView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		BFB95E7D18AB0A190097B34B /* BNRItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItem.m; sourceTree = "<group>"; };
 		BFB95E7F18AB0AE70097B34B /* BNRItemStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRItemStore.h; sourceTree = "<group>"; };
 		BFB95E8018AB0AE70097B34B /* BNRItemStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItemStore.m; sourceTree = "<group>"; };
+		BFB95E8218AC06B00097B34B /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			children = (
 				BFB95E7918AB08540097B34B /* ItemsViewController.h */,
 				BFB95E7A18AB08540097B34B /* ItemsViewController.m */,
+				BFB95E8218AC06B00097B34B /* HeaderView.xib */,
 				BFB95E7C18AB0A190097B34B /* BNRItem.h */,
 				BFB95E7D18AB0A190097B34B /* BNRItem.m */,
 				BFB95E7F18AB0AE70097B34B /* BNRItemStore.h */,
@@ -174,6 +177,7 @@
 				BFB95E6B18AB07E70097B34B /* Default@2x.png in Resources */,
 				BFB95E6D18AB07E70097B34B /* Default-568h@2x.png in Resources */,
 				BFB95E7018AB07E70097B34B /* MainStoryboard.storyboard in Resources */,
+				BFB95E8318AC06B00097B34B /* HeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +315,7 @@
 				BFB95E7818AB07E70097B34B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
